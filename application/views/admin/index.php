@@ -42,7 +42,7 @@
                 <div class="col-12">
                     <div class="form-group row">
                         <div class="col-2">
-                            <a class="btn btn-primary" href="admin/create" role="button">Tambah Data</a>
+                            <a class="btn btn-primary" href="<?= base_url('admin/create')?>" role="button">Tambah Data</a>
                         </div>
                         <div class="col-2">
                             <div class="dropdown show">
