@@ -48,7 +48,7 @@ class Komentar extends CI_Controller {
 
     public function saveKomentar(){
         $datainsert = [
-            'tanggal' => date("Y-m/-"),
+            'tanggal' => date("Y-m-d"),
             'users_id' => $this->session->userdata('id_user'),
             'isi' => $this->input->post('komentar'),
             'wisata_id' => $this->input->post('wisata_id'),
