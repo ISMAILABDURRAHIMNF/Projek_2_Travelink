@@ -25,7 +25,7 @@ class Komentar extends CI_Controller {
 
     public function delete(){
         $id = $this->input->get('id');
-        $this->admin->delete($id);
+        $this->komentar->delete($id);
         redirect('komentar','refresh');
     }
 

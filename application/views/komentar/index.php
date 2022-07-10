@@ -63,7 +63,7 @@
                                 <td><?=$komentar->username?></td>
                                 <td><?=$komentar->isi?></td>
                                 <td>
-                                    <a class="btn btn-danger btn-sm" href="admin/delete?id=<?=$komentar->id?>" role="button"
+                                    <a class="btn btn-danger btn-sm" href="komentar/delete?id=<?=$komentar->id?>" role="button"
                                     onclick="if(!confirm('Anda yakin hapus komentar <?=$komentar->username?>?')) {return false}"
                                     >Delete</a>
                                     </td>
